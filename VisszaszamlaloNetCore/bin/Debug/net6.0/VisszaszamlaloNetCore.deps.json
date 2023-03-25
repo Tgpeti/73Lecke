@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "VisszaszamlaloNetCore/1.0.0": {
+        "dependencies": {
+          "Visszaszamlalas": "1.0.0"
+        },
+        "runtime": {
+          "VisszaszamlaloNetCore.dll": {}
+        }
+      },
+      "Visszaszamlalas/1.0.0": {
+        "runtime": {
+          "Visszaszamlalas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VisszaszamlaloNetCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Visszaszamlalas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
