@@ -17,7 +17,6 @@ namespace VisszaszamlaloFramework
             v.MennyiMeg();
             Console.WriteLine("csak nem megy");
             Console.ReadLine();
-          
 
 
         }
