@@ -6,10 +6,14 @@ namespace Gombvadaszat
         {
             InitializeComponent();
         }
+        
+        
+        
 
-        private void button1_Click(object sender, EventArgs e)
+        private void myButton1_Click(object sender, EventArgs e)
         {
-
+            myButton1.ClickCount++;
+            myButton1.ButtonJump();
         }
     }
 }
