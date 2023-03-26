@@ -1,0 +1,8 @@
+D:\coding\01_Webuni\Házik\73lecke\WebHelloMVCEMpty\obj\Debug\net6.0\WebHelloMVCEMpty.csproj.AssemblyReference.cache
+D:\coding\01_Webuni\Házik\73lecke\WebHelloMVCEMpty\obj\Debug\net6.0\WebHelloMVCEMpty.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\01_Webuni\Házik\73lecke\WebHelloMVCEMpty\obj\Debug\net6.0\WebHelloMVCEMpty.AssemblyInfoInputs.cache
+D:\coding\01_Webuni\Házik\73lecke\WebHelloMVCEMpty\obj\Debug\net6.0\WebHelloMVCEMpty.AssemblyInfo.cs
+D:\coding\01_Webuni\Házik\73lecke\WebHelloMVCEMpty\obj\Debug\net6.0\WebHelloMVCEMpty.csproj.CoreCompileInputs.cache
+D:\coding\01_Webuni\Házik\73lecke\WebHelloMVCEMpty\obj\Debug\net6.0\WebHelloMVCEMpty.MvcApplicationPartsAssemblyInfo.cache
+D:\coding\01_Webuni\Házik\73lecke\WebHelloMVCEMpty\obj\Debug\net6.0\WebHelloMVCEMpty.RazorAssemblyInfo.cache
+D:\coding\01_Webuni\Házik\73lecke\WebHelloMVCEMpty\obj\Debug\net6.0\WebHelloMVCEMpty.RazorAssemblyInfo.cs
