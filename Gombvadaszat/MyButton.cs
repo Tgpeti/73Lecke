@@ -14,7 +14,6 @@ namespace Gombvadaszat
     {
         public int ClickCount { get; set; }
         
-
         public MyButton()
         {
             InitializeComponent();
@@ -22,12 +21,18 @@ namespace Gombvadaszat
         }
         public void ButtonJump()
         {
+            
+                     
             Random r = new Random();
             int randomTop = r.Next(0, 400);
             int randomRigth = r.Next(0, 700);
             Location = new Point(randomRigth, randomTop);
             this.Text = ClickCount.ToString();
             
+            
+            
+
+
         }
 
         protected override void OnPaint(PaintEventArgs pe)

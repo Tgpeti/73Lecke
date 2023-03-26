@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.myButton1 = new Gombvadaszat.MyButton();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // myButton1
@@ -42,6 +44,11 @@
             this.myButton1.UseVisualStyleBackColor = true;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 3000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -49,7 +56,7 @@
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.myButton1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Gombvadászat";
             this.ResumeLayout(false);
 
         }
@@ -57,5 +64,6 @@
         #endregion
 
         private MyButton myButton1;
+        public System.Windows.Forms.Timer timer1;
     }
 }
