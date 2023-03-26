@@ -3,6 +3,7 @@
     public class Person
     {
 
-        public string nev { get; set; }
+        public string Nev { get; set; }
+        
     }
 }

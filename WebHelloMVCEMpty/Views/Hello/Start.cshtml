@@ -1,6 +1,22 @@
-﻿@using WebHelloMVCEMpty.Models.Person
+﻿@using WebHelloMVCEMpty.Models
 @model Person
+@{
+	string koszones;
+	int ora = DateTime.Now.Hour;
+	if (ora <= 10)
+	{
+		koszones = "Jó reggelt";
+	}
+	else if (ora >= 17)
+	{
+		koszones = "Jó estét";
+	}
+	else
+	{
+		koszones = "Jó napot";
+	}
+}
 
 
-<h3>Hello @Model.Nev</h3>
+<h3>@koszones @Model.Nev</h3>
 

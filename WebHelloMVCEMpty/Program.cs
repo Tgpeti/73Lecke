@@ -16,6 +16,7 @@ namespace WebHelloMVCEMpty
            app.UseStaticFiles();
 
             app.Run();
+            
         }
     }
 }

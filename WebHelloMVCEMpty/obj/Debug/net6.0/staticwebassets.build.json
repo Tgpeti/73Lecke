@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "q63Mp5rwQ5gIOrX6COc2Nre4vJlETURM2vFBuNZOubw=",
+  "Source": "WebHelloMVCEMpty",
+  "BasePath": "_content/WebHelloMVCEMpty",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebHelloMVCEMpty\\wwwroot",
+      "Source": "WebHelloMVCEMpty",
+      "ContentRoot": "D:\\coding\\01_Webuni\\Házik\\73lecke\\WebHelloMVCEMpty\\wwwroot\\",
+      "BasePath": "_content/WebHelloMVCEMpty",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
