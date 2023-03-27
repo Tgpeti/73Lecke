@@ -4,6 +4,7 @@
     {
 
         public string Nev { get; set; }
+
         
     }
 }
