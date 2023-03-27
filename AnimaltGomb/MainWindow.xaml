@@ -1,0 +1,57 @@
+﻿<Window x:Class="AnimaltGomb.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnimaltGomb"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Button1" Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="190" Width="320" BorderThickness="1" Click="Button_Click" MouseRightButtonDown="Button1_MouseRightButtonDown" >
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ThicknessAnimation
+                                From="1"
+                                To="40"
+                                Duration="00:00:02"
+                                Storyboard.TargetName="Button1"
+                                Storyboard.TargetProperty="BorderThickness" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ThicknessAnimation
+                                To="1"
+                                Duration="00:00:00.01"
+                                Storyboard.TargetName="Button1"
+                                Storyboard.TargetProperty="BorderThickness" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                                To="0"
+                                Duration="00:00:00.1"
+                                Storyboard.TargetName="Rot"
+                                Storyboard.TargetProperty="Angle" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+
+            </Button.Triggers>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform x:Name="Rot" Angle="0" />
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Window>
